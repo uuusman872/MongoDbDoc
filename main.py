@@ -5,5 +5,5 @@ if __name__ == "__main__":
     print(client)
     db = client['harry']
     collection = db["mySampleCollectionForHarry"]
-
     collection.insert_one({"hello": "world"})
+
